@@ -1,12 +1,10 @@
 'use strict';
 const total = 100;
-const ordered = 100;
-let message;
+const ordered = 50;
 
 if (ordered <= total) {
-  message = 'Заказ оформлен, с вами свяжется менеджер.';
+  console.log('Заказ оформлен, с вами свяжется менеджер.');
 } else {
-  message = 'На складе недостаточно твоаров!';
-};
+  console.log('На складе недостаточно твоаров!');
+}
 
-console.log(message);

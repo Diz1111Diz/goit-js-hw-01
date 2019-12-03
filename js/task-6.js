@@ -2,14 +2,16 @@
 
 let input;
 let total = 0;
-let message;
 
 do {
-  input = prompt('Введите число');
-  input = Number(input);
-  total += input;     
-}
-while (input) {
-  alert(message = `Общая сумма чисел равна ${total}`);
-}
+  input = prompt('Введите число', '');
+  let convertInput = Number(input);
+  if(Number.isNaN(convertInput)){
+    alert('Было введено не число, попробуйте еще раз');
+  }else{
+    total += convertInput;
+  }
+}while(input !== null)
+  alert(`Общая сумма чисел равна ${total}`);
+
 

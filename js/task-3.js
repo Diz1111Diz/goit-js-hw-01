@@ -1,5 +1,5 @@
 'use strict';
-const ADMIN_PASSWORD = 'jqueryismyjam' //jqueryismyjam
+const ADMIN_PASSWORD = 'jqueryismyjam'
 
 let message;
 
